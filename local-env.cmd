@@ -1,0 +1,9 @@
+set HERMES_USERNAME=put-username-here
+set HERMES_PASSWORD=put-password-here
+set HERMES_BASE_URL=http://intcon-proxy.sslocal.com/hermes/prod/
+set NODE_ENV=development
+set NEW_RELIC_LICENSE_KEY=
+set NEW_RELIC_APP_NAME=
+set SENTRY_ENVIRONMENT=
+set SENTRY_DSN=
+set SENTRY_RELEASE=

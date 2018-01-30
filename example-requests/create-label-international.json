@@ -1,0 +1,90 @@
+{
+  "credentials": {
+    "username": "put-username-here",
+    "password": "put-password-here"
+  },
+  "customs": {
+    "contents": "a hat",
+    "non_delivery": "a",
+    "customs_items": [
+      {
+        "description": "a hat",
+        "quantity": 1,
+        "value": {
+          "currency": "USD",
+          "amount": 1.2
+        },
+        "country_of_origin": "US",
+        "harmonized_tariff_code": "123456"
+      }
+    ]
+  },
+  "transaction_id": "123",
+  "test_label": "false",
+  "service_code": "",
+  "label_format": "PDF",
+  "label_layout": "4x6",
+  "ship_to": {
+    "is_eu": false,
+    "first_name": "ronnie",
+    "last_name": "carlman",
+    "name": "ronnie carlman",
+    "email": "bigron@musclemass.net",
+    "phone": "1234567",
+    "company": "Ronnie Carlman Signature Series Supplements",
+    "address_lines": [
+      "123 squat lane",
+      "deadlift alley"
+    ],
+    "city_locality": "elsewhere",
+    "state_province": "west sussex",
+    "postal_code": "RH10 3PD",
+    "country_code": "GB",
+    "address_residential_indicator": "what even is this"
+  },
+  "ship_from": {
+    "name": "The quadfather",
+    "email": "tomplatz@quads.net",
+    "phone": "1234567",
+    "company": "SQUAT",
+    "address_lines": [
+      "123 barbell row",
+      "under the bar"
+    ],
+    "city_locality": "elsewhere",
+    "state_province": "west sussex",
+    "postal_code": "RH10 3PD",
+    "country_code": "GB",
+    "address_residential_indicator": "what even is this"
+  },
+  "confirmation": "signature",
+  "advanced_options": {
+    "exclude_cancel_delivery": "true",
+    "exclude_later_date": "true",
+    "hanging_garment": "true",
+    "theft_risk": "true",
+    "bill_duties_to_sender": true
+  },
+  "ship_date": "2018-01-25T00:00:00",
+  "packages": [
+    {
+      "weight": "1",
+      "dimensions": {
+        "length": "10",
+        "width": 5,
+        "height": 4
+      },
+      "insured_value": {
+        "amount": "100",
+        "currency": "GBP"
+      },
+      "label_messages": {
+        "reference1": "hello",
+        "reference2": "there",
+        "reference3": ""
+      }
+    }
+  ],
+  "reference": "reference",
+  "insurance_provider": "shipsurance"
+}

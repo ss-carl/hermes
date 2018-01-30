@@ -1,0 +1,26 @@
+{
+    "root": true,
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "env": {
+        "node": true,
+        "es6": true,
+        "mocha": true
+    },
+    "rules": {
+        "comma-dangle": ["error", "always"],
+        "eol-last": ["error", "always"],
+        "indent": ["error", 2],
+        "linebreak-style": ["error", "unix"],
+        "no-trailing-spaces": ["error"],
+        "quotes": ["error", "single"],
+        "semi": ["error", "never"],
+        "sort-vars": ["error"],
+
+        "no-var": ["error"],
+        "prefer-const": ["error"],
+        "sort-imports": ["error"]
+    }
+}
